@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Define Charset -->
+	<meta charset="utf-8">
+	
+	<!-- Page Title -->
+	<title>Gallery Lightbox - Fitness Sport Center HTML</title>
+
+	<!-- Responsive Metatag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	   
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+    <!-- Adipoli -->
+	<link rel="stylesheet" href="css/adipoli.css" />
+    
+    <!-- Font icons -->
+    <link rel="stylesheet" href="css/fontello.css" >
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="css/fontello-ie7.css" ><![endif]-->
+		
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/media-queries.css" />
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>        
+	<![endif]-->
+
+	<!-- Media queries -->
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<header>
+		<!-- begin Top Bar -->
+		<div class="topbar" >
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<i class="icon-mobile"></i> Give us a call: +568 356 124 <i class="icon-mail"></i> Email: john@doe.com							
+				</div>
+				<div class="col-sm-6">
+					<ul class="social">
+						<li><a href="#" class="twitter"><i class="icon-twitter"></i></a></li>
+						<li><a href="#" class="linkedin"><i class="icon-linkedin"></i></a></li>
+						<li><a href="#" class="gplus"><i class="icon-gplus"></i></a></li>
+						<li><a href="#" class="facebook"><i class="icon-facebook"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		</div>
+		<!-- end Top Bar -->
+
+		<!-- begin NavBar -->
+		<nav class="navbar" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li ><a href="index.html">Home</a></li>
+					<li><a href="classes.html">Classes</a></li>
+					<li ><a href="trainers.html">Trainers</a></li>
+					<li ><a href="club.html">Club</a></li>
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+						<ul class="dropdown-menu">
+							<li ><a href="club.html">About Us</a></li>
+							<li ><a href="trainers.html">Our team</a></li>
+							<li ><a href="news.html">News</a></li>
+							<li ><a href="single-news.html">Single news</a></li>
+							<li ><a href="single-trainers.html">Single trainers</a></li>
+							<li ><a href="single-classes.html">Single classes</a></li>
+							<li ><a href="store.html">Store</a></li>
+							<li ><a href="single-items.html">Store Item</a></li>
+							<li class="active" ><a href="gallery.html">Gallery Lightbox</a></li>
+                            <li ><a href="timetable.html">Timetable</a></li>
+                            <li ><a href="404-error.html">Error 404</a></li>
+                            <li ><a href="typography.html">Typography</a></li> 						
+						</ul>
+					</li>
+					<li ><a href="pricing.html">Pricing</a></li>
+					<li ><a href="contact.html">Contact</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+		</nav>
+		<!-- end NavBar -->
+
+		<!-- begin Sub Bar -->
+		<div class="subbar" >
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-7 title">
+					Gallery <em>4 Columns </em>
+				</div>
+				<div class="col-sm-5 breadcrumbs">
+					You are here: <a href="index.html">Home</a> <i class="icon-right-thin"></i> <a href="#">Pages</a> <i class="icon-right-thin"></i> <a href="gallery.html">Gallery Lightbox</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		</div>
+		<!-- end Sub Bar -->
+	</header>
+
+	<section>
+		<div class="container">
+				
+			<div class="row">
+			<article class="col-md-12 grid magic-grid">
+				<div class="filters" >
+					<button class="active" data-filter="*">view all</button>
+					<button data-filter=".pilates">pilates</button>
+					<button data-filter=".salsa">salsa</button>
+					<button data-filter=".yoga">yoga</button>
+					<button data-filter=".boxing">boxing</button>
+					<button data-filter=".cycling">cycling</button>
+				</div>
+
+				<div class="content gallery">
+
+					<!-- Item -->
+					<div class="image-item cycling">						
+						<div class="portfolio-item-hover-content">
+							<a href="img/classes/class01.jpg" title="Dummy Image Title" data-rel="prettyPhoto" class="zoom"><i class="icon-plus-circled"></i></a>	
+							<img src="img/classes/class01.jpg" alt=" " class="portfolio-img" />
+							<div class="hover-options"></div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="image-item yoga boxing">						
+						<div class="portfolio-item-hover-content">
+							<a href="img/classes/class02.jpg" title="Dummy Image Title" data-rel="prettyPhoto" class="zoom"><i class="icon-plus-circled"></i></a>	
+							<img src="img/classes/class02.jpg" alt=" " class="portfolio-img" />
+							<div class="hover-options"></div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="image-item yoga">						
+						<div class="portfolio-item-hover-content">
+							<a href="img/classes/class03.jpg" title="Dummy Image Title" data-rel="prettyPhoto" class="zoom"><i class="icon-plus-circled"></i></a>	
+							<img src="img/classes/class03.jpg" alt=" " class="portfolio-img" />
+							<div class="hover-options"></div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="image-item cycling">						
+						<div class="portfolio-item-hover-content">
+							<a href="img/classes/class04.jpg" title="Dummy Image Title" data-rel="prettyPhoto" class="zoom"><i class="icon-plus-circled"></i></a>	
+							<img src="img/classes/class04.jpg" alt=" " class="portfolio-img" />
+							<div class="hover-options"></div>
+						</div>
+					</div>
+
+
+
+
+					<!-- Item -->
+					<div class="image-item yoga boxing cycling">						
+						<div class="portfolio-item-hover-content">
+							<a href="img/classes/class01.jpg" title="Dummy Image Title" data-rel="prettyPhoto" class="zoom"><i class="icon-plus-circled"></i></a>	
+							<img src="img/classes/class01.jpg" alt=" " class="portfolio-img" />
+							<div class="hover-options"></div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="image-item pilates salsa cycling">						
+						<div class="portfolio-item-hover-content">
+							<a href="img/classes/class06.jpg" title="Dummy Image Title" data-rel="prettyPhoto" class="zoom"><i class="icon-plus-circled"></i></a>	
+							<img src="img/classes/class06.jpg" alt=" " class="portfolio-img" />
+							<div class="hover-options"></div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="image-item pilates">						
+						<div class="portfolio-item-hover-content">
+							<a href="img/classes/class01.jpg" title="Dummy Image Title" data-rel="prettyPhoto" class="zoom"><i class="icon-plus-circled"></i></a>	
+							<img src="img/classes/class01.jpg" alt=" " class="portfolio-img" />
+							<div class="hover-options"></div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="image-item yoga pilates boxing">						
+						<div class="portfolio-item-hover-content">
+							<a href="img/classes/class04.jpg" title="Dummy Image Title" data-rel="prettyPhoto" class="zoom"><i class="icon-plus-circled"></i></a>	
+							<img src="img/classes/class04.jpg" alt=" " class="portfolio-img" />
+							<div class="hover-options"></div>
+						</div>
+					</div>
+
+
+
+
+					<!-- Item -->
+					<div class="image-item yoga">						
+						<div class="portfolio-item-hover-content">
+							<a href="img/classes/class05.jpg" title="Dummy Image Title" data-rel="prettyPhoto" class="zoom"><i class="icon-plus-circled"></i></a>	
+							<img src="img/classes/class05.jpg" alt=" " class="portfolio-img" />
+							<div class="hover-options"></div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="image-item pilates salsa boxing">						
+						<div class="portfolio-item-hover-content">
+							<a href="img/classes/class06.jpg" title="Dummy Image Title" data-rel="prettyPhoto" class="zoom"><i class="icon-plus-circled"></i></a>	
+							<img src="img/classes/class06.jpg" alt=" " class="portfolio-img" />
+							<div class="hover-options"></div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="image-item pilates">						
+						<div class="portfolio-item-hover-content">
+							<a href="img/classes/class01.jpg" title="Dummy Image Title" data-rel="prettyPhoto" class="zoom"><i class="icon-plus-circled"></i></a>	
+							<img src="img/classes/class01.jpg" alt=" " class="portfolio-img" />
+							<div class="hover-options"></div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="image-item yoga pilates">						
+						<div class="portfolio-item-hover-content">
+							<a href="img/classes/class02.jpg" title="Dummy Image Title" data-rel="prettyPhoto" class="zoom"><i class="icon-plus-circled"></i></a>	
+							<img src="img/classes/class02.jpg" alt=" " class="portfolio-img" />
+							<div class="hover-options"></div>
+						</div>
+					</div>
+
+
+				</div>
+			</article>
+			</div>
+
+		</div>	
+	</section>
+
+	
+	<footer>
+		<!-- begin top Footer -->
+		<div class="topfoot">
+		<div class="container">
+			<div id="logos" class="carousel slide">
+
+			<a class="carousel-control" href="#logos" data-slide="prev">
+			    <i class="icon-left-circled"></i>
+			</a>
+
+			<a class="carousel-control control-right" href="#logos" data-slide="next">
+			    <i class="icon-right-circled"></i>
+			</a>
+			
+			<div class="carousel-inner">
+				<div class="item active">
+			    	<div><img src="img/logos/logo1.jpg" alt="//"></div>
+			    	<div><img src="img/logos/logo2.jpg" alt="//"></div>
+			    	<div><img src="img/logos/logo3.jpg" alt="//"></div>
+			    	<div><img src="img/logos/logo1.jpg" alt="//"></div>
+			    	<div><img src="img/logos/logo4.jpg" alt="//"></div>
+			    	<div><img src="img/logos/logo2.jpg" alt="//"></div>
+			    	<div><img src="img/logos/logo3.jpg" alt="//"></div>
+			    </div>
+				<div class="item">
+			    	<div><img src="img/logos/logo3.jpg" alt="//"></div>
+			    	<div><img src="img/logos/logo2.jpg" alt="//"></div>
+			    	<div><img src="img/logos/logo1.jpg" alt="//"></div>
+			    	<div><img src="img/logos/logo4.jpg" alt="//"></div>
+			    	<div><img src="img/logos/logo3.jpg" alt="//"></div>
+			    	<div><img src="img/logos/logo2.jpg" alt="//"></div>
+			    	<div><img src="img/logos/logo1.jpg" alt="//"></div>
+			    </div>
+			</div>
+
+
+			</div>
+		</div>
+		</div>
+		<!-- end top Footer -->
+
+		<!-- begin middle Footer -->
+		<div class="middlefoot">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3 about">
+					<h2>About Us</h2>
+					<p>Call Us: 06216 15156<br />
+					Friday to Saturday, from 10 am to 7 pm</p>
+
+					<p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit.</p>
+					<p>
+						A in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto sport. go to the dignissim.
+						<a href="#"><i class="icon-right-circled"></i>Read more</a>
+					</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<h2>Recent News</h2>
+
+					<div class="recent-news">
+						<div>
+							<div class="post-icon"><i class="icon-pencil"></i></div>
+							<img src="img/news/recent1.jpg" alt="//" />
+						</div>
+						<a href="#">This is a demo post example with no images here</a>
+						<span>May 12, 2013 by Admin</span>
+					</div>
+					<div class="recent-news">
+						<div>
+							<div class="post-icon"><i class="icon-pencil"></i></div>
+							<img src="img/news/recent2.jpg" alt="//" />
+						</div>
+						<a href="#">This is a demo post example with no images here</a>
+						<span>May 12, 2013 by Admin</span>
+					</div>
+					<div class="recent-news">
+						<div>
+							<div class="post-icon"><i class="icon-pencil"></i></div>
+							<img src="img/news/recent3.jpg" alt="//" />
+						</div>
+						<a href="#">This is a demo post example with no images here</a>
+						<span>May 12, 2013 by Admin</span>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<h2>Important Links</h2>
+					<ul>
+						<li><i class="icon-plus"></i>Physique Stretch</li>
+						<li><i class="icon-plus"></i>Physique Yoga</li>
+						<li><i class="icon-plus"></i>Physique Express Classes</li>
+						<li><i class="icon-plus"></i>Physique Cardio Training</li>
+						<li><i class="icon-plus"></i>Physique Stretch</li>
+						<li><i class="icon-plus"></i>Physique Yoga</li>
+						<li><i class="icon-plus"></i>Physique Express Classes</li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<h2>Important Links</h2>
+					<ul>
+						<li><i class="icon-plus"></i><a href="#">Physique Stretch</a></li>
+						<li><i class="icon-plus"></i><a href="#">Physique Yoga</a></li>
+						<li><i class="icon-plus"></i><a href="#">Physique Express Classes</a></li>
+						<li><i class="icon-plus"></i><a href="#">Physique Cardio Training</a></li>
+						<li><i class="icon-plus"></i><a href="#">Physique Stretch</a></li>
+						<li><i class="icon-plus"></i><a href="#">Physique Yoga</a></li>
+						<li><i class="icon-plus"></i><a href="#">Physique Express Classes</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		</div>
+		<!-- end middle Footer -->
+
+		<!-- begin bottom Footer -->
+		<div class="bottomfoot">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<p>premium template Proudly Designed by <a href="">Coralix themes</a></p>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<ul class="social">
+						<li><a href="#" class="instagram"><i class="icon-instagram"></i></a></li>
+						<li><a href="#" class="vimeo"><i class="icon-vimeo"></i></a></li>
+						<li><a href="#" class="pinterest"><i class="icon-pinterest"></i></a></li>
+						<li><a href="#" class="gplus"><i class="icon-gplus"></i></a></li>
+						<li><a href="#" class="linkedin"><i class="icon-linkedin"></i></a></li>
+						<li><a href="#" class="twitter"><i class="icon-twitter"></i></a></li>
+						<li><a href="#" class="facebook"><i class="icon-facebook"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- begin bottom Footer -->
+	</footer>
+	
+
+	
+	<a href="#" class="scrollup"><i class="icon-up-open"></i></a>      
+
+
+	<!-- Javascript Files -->
+    
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script>window.jQuery || document.write("<script src=\"js/jquery-1.9.1.min.js\">")</script>
+	
+        <!-- Respond.js media queries for IE8 -->
+        <script src="js/respond.min.js"></script>
+        
+        <!-- Bootstrap-->
+        <script src="js/bootstrap.min.js" ></script>
+     
+        <!-- Retina.js -->
+        <script src="js/retina.js" ></script>
+
+		<!-- prettyPhoto -->
+		<script src="js/prettyPhoto/jquery.prettyPhoto.js"></script>
+            
+        <!-- Isotope.js -->
+        <script src="js/jquery.isotope.min.js" ></script>
+                        
+        <!-- Custom site js-->
+        <script src="js/script.js" type="text/javascript" ></script>
+	
+    <!-- End Javascript Files -->
+    
+    
+</body>
+</html>
